@@ -18,4 +18,4 @@ This basic ray tracer is based on [Ray Tracing in One Weekend](https://raytracin
   
   world_objects.many_objects[0] = &sphere;
   
-  print_screen(camera,world-objects,path_to_file);
+  print_screen(camera,world_objects,path_to_file);
