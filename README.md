@@ -9,7 +9,7 @@ This basic ray tracer is based on [Ray Tracing in One Weekend](https://raytracin
  The Sphere class takes a location, in the form of a Vector3, a radius, and a pointer to an Albedo.
  To display a sphere add it to an ObjectList and pass that into print_screen.
  
- ## Example
+ ### Example
   Albedo Al_1(Vector3(.52,.82.15));
   
   Sphere sphere(Vector3(-1,.5,-4),0.5,&Al_1);
@@ -19,3 +19,6 @@ This basic ray tracer is based on [Ray Tracing in One Weekend](https://raytracin
   world_objects.many_objects[0] = &sphere;
   
   print_screen(camera,world_objects,path_to_file);
+
+## Compiling
+ In ./bin there is a batch file called makeit.bat. It contains code to run g++ which compiles everything into ray-trace.exe.
