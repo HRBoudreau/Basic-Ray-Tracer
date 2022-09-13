@@ -11,7 +11,11 @@ This basic ray tracer is based on [Ray Tracing in One Weekend](https://raytracin
  
  ## Example
   Albedo Al_1(Vector3(.52,.82.15));
+  
   Sphere sphere(Vector3(-1,.5,-4),0.5,&Al_1);
+  
   ObjectList world_objects(1);
+  
   world_objects.many_objects[0] = &sphere;
+  
   print_screen(camera,world-objects,path_to_file);
