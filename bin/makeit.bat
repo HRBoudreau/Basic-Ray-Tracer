@@ -1,0 +1,1 @@
+g++ -I..\include ..\src\main.cpp ..\src\vector3.cpp ..\src\ray.cpp ..\src\camera.cpp ..\src\hittable_object.cpp ..\src\local_axes.cpp ..\src\sphere.cpp ..\src\material.cpp ..\src\print_screen.cpp -o ray-trace.exe

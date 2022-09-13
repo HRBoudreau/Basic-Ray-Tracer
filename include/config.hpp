@@ -1,0 +1,8 @@
+#ifndef RAY_TRACER_CONFIG_HPP
+#define RAY_TRACER_CONFIG_HPP
+
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
+
+#endif // RAY_TRACER_CONFIG_HPP
